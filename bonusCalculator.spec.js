@@ -1,4 +1,4 @@
-const calculateBonus = require(`./bonusCalculator`);
+
   
   describe('calculateBonus', () => {
     it('should calculate bonus correctly', () => {
@@ -35,4 +35,4 @@ const calculateBonus = require(`./bonusCalculator`);
       expect(calculateBonus(-170, -180)).toBe(0);
     });
   });
-  
+  const calculateBonus = require(`./bonusCalculator`);
