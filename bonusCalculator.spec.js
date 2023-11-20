@@ -35,3 +35,4 @@ const calculateBonus = require(`./bonusCalculator`);
       expect(calculateBonus(-170, -180)).toBe(0);
     });
   });
+  

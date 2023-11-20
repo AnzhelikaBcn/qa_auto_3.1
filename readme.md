@@ -40,3 +40,35 @@ Jest will automatically discover and run your test files. Make sure your test fi
 
 You should see the test results, and Jest will run the tests for the bonus calculation function, including the cases where values are zero, null, or negative. It will help you ensure that the code correctly handles these scenarios.
 
+### It is necessary to connect the coverage and bring it to 100% coverage on branches and lines
+
+1. **Install Dependencies:**
+
+   Install `babel-plugin-istanbul`:
+
+   npm install --save-dev babel-plugin-istanbul
+  
+   Ensure Jest is already installed in your project.
+
+
+2. **Run Tests with Coverage Measurement:**
+
+   You can run tests with coverage measurement using the command:
+
+   npx jest --coverage
+
+   This will execute your tests and generate a coverage report that you can view in the browser or save for further analysis.
+
+
+   ### Understanding the Differences Between Function, Branch, and Line Coverage:
+
+   - **Functions:** Measures how many functions in your code were executed during testing.
+
+   - **Branches:** Tracks the execution of different branches in your conditional statements. It's important to cover both true and false conditions.
+
+   - **Lines:** Displays how many lines of your code were executed during testing.
+
+   The goal is to achieve 100% coverage for each of these criteria to ensure a high level of test coverage.
+   
+
+Make sure that after running tests and measuring coverage, your report includes all necessary metrics and achieves 100% coverage for both branches and lines.
